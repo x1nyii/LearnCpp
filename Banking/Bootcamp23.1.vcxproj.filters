@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Controller">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Controller\Utilities">
+      <UniqueIdentifier>{3964867e-f0dd-4f21-938a-993bedbc6d53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller\Network">
+      <UniqueIdentifier>{ff60e296-127c-454b-98c7-58dd4bca4417}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller\ActionClass">
+      <UniqueIdentifier>{87e3cf07-a1f0-4fdd-801c-83211f9eeb77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller\Records">
+      <UniqueIdentifier>{47f818b7-54bf-402a-8a55-8228ee5326d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller\ActionClass\Common">
+      <UniqueIdentifier>{42419578-1336-4674-b556-0afc3646f84a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="InterfaceControl.h" />
+    <ClInclude Include="DecodingUtilityClass.h">
+      <Filter>Controller\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="EncodingUtilityClass.h">
+      <Filter>Controller\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomerFileHandler.h">
+      <Filter>Controller\Records</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="RecordsManagement.h">
+      <Filter>Controller\Records</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpServer.h">
+      <Filter>Controller\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomerClass.h">
+      <Filter>Controller\ActionClass</Filter>
+    </ClInclude>
+    <ClInclude Include="AdminClass.h">
+      <Filter>Controller\ActionClass</Filter>
+    </ClInclude>
+    <ClInclude Include="EnquireBalanceReplyMessage.h">
+      <Filter>Controller\ActionClass\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageBaseClass.h">
+      <Filter>Controller\ActionClass\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateAccountMessage.h">
+      <Filter>Controller\ActionClass\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="DeleteAccountMessage.h">
+      <Filter>Controller\ActionClass\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="EnquireBalanceMessage.h">
+      <Filter>Controller\ActionClass\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="WithdrawMoneyMessage.h">
+      <Filter>Controller\ActionClass\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="DepositMoneyMessage.h">
+      <Filter>Controller\ActionClass\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="StatusReplyMessage.h">
+      <Filter>Controller\ActionClass\Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Bootcamp23.1.main.cpp" />
+  </ItemGroup>
+</Project>
